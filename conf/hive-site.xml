@@ -1,0 +1,22 @@
+<configuration>
+
+  <property>
+    <name>hive.metastore.uris</name>
+    <value>thrift://10.51.192.33:9083</value>
+    <final>false</final>
+    <source>Dataproc Cluster Properties</source>
+  </property>
+  <property>
+    <name>hive.fetch.task.conversion</name>
+    <value>none</value>
+    <final>false</final>
+    <source>Dataproc Cluster Properties</source>
+  </property>
+  <property>
+    <name>hive.metastore.warehouse.dir</name>
+    <value>gs://gcp-prototype-gcs/warehouse</value>
+    <final>false</final>
+    <source>Dataproc Cluster Properties</source>
+  </property>
+
+</configuration>
